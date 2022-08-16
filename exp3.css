@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+.heading{
+    background-color: rgb(13, 2, 127);
+    color: aliceblue;
+    text-align: center;
+
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url("clg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    background-color: bisque;
+    font-family: georgia;
+    text-align: center;
+
+}
+.para{
+    background-color: bisque;
+    font-family: georgia;
+    text-align: justify;
+
+}
+.box1{
+    width: 300px;
+    height: 500px;
+    background-image: url("lib.jpg");
+    background-repeat: no-repeat;
+    float: left;
+   
+    
+}
+.hed{
+    width: 300px;
+    opacity: 0.6;
+    font-family: Georgia;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+}
+.box2{
+    width: 530px;
+    height: 500px;
+    background-image: url("libr.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+.hed1{
+    
+    width: 410px;
+    height: 25px;
+    opacity: 0.6;
+    bottom: -320px;
+    position: absolute;
+    font-family: Georgia;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.box3{
+    width: 410px;
+    height: 500px;
+    background-image: url("biot.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-color: bisque;
+    
+}
+.hed2{
+    opacity: 0.6;
+    font-family: Georgia;
+    background-color: rgb(11, 11, 11);
+    color: aliceblue;
+    text-align: center;
+    
+}
+.campus{
+    width: 500px;
+    background-color: bisque;
+    font-family: georgia;
+    
+}
+.para1{
+    width: 800px;
+    height: 480px;
+    background-color: bisque;
+    font-family: georgia;
+    text-align: justify;
+}
+.box4{
+    width: 600px;
+    height: 480px;
+    background-image: url("https://images.static-collegedunia.com/public/college_data/images/campusimage/1582695330_O6A5621.jpg");
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+}
+.box5{
+    width: 600px;
+    height: 540px;
+    background-image: url("https://images.static-collegedunia.com/public/college_data/images/campusimage/1582695212_O6A4066.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+.box6{
+    width: 705px;
+    height: 400px;
+    float:right;
+}
+.para2{
+    height: 280px;
+    background-color: rgb(237, 203, 158);
+    font-family: georgia;
+    text-align: justify;
+    font-size: 0.50cm;
+}
+.form{
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(22, 5, 207);
+    width: 400px;
+    height: 200px;
+    padding: 150px 50px;
+    margin: 10px 10px;
+    
+}
