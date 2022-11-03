@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div class="whole">
+    
+    <h1 style="color: blue;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loan  EMI  Calculator</h1>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="5exp.css">
+    <script>
+     function loan()
+      {
+       var p =document.getElementById('LNAM').value;
+       document.getElementById('c1').innerHTML=p;
+      }
+    </script>
+</head>
+<body style="color: blue">
+     LOAN AMT:
+    <br><br>
+    <input class="b1" type="text" id="LNAM" onekeyup="loan()">
+    <br><br>
+    ANNUAL INTEREST RATE(%):
+    <br><br>
+    <input class="b1" type="text" id="air">
+    <br><br>
+    Tenure(years):
+    <br><br>
+    <input class="b1" type="text" id="t">
+    <br><br>
+    <div class="la" id="" style=" background-color: blue" >LOAN AMOUNNT
+    <span id="c1" style="color:black"></span></div>
+    <br>
+    <div class="la" id="c2" style="background-color: blue;" >Total Interest:</div>
+    <br>
+    <div class="la" id="c3" style=" background-color: blue;" >EMI</div>
+    <br>
+    <div class="la" id="c4" style=" background-color: blue;" >Total Repayment</div>
+    <br>
+</div>
+</body>
+</html>
